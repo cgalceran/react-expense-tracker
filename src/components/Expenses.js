@@ -1,6 +1,7 @@
 import Expense from "./Expense"
 
 const Expenses = ({ expenses, onDelete }) => {
+    console.log({expenses})
     return (
         <div className="container mt-5 ">
             <table className="table table-hover text-center ">

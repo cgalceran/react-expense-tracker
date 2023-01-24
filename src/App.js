@@ -8,6 +8,7 @@ import Expenses from './components/Expenses';
 
 function App({ onDelete }) {
   const [expenses, setExpenses] = useState({ 'items': [] });
+  // const [isLoading, setIsLoading] = useState(false);
 
   // Load expenses on load and refresh
   if (JSON.parse(localStorage.getItem('items')) != null) {
